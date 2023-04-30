@@ -1,0 +1,67 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Our sponsers</ion-title>
+    <ion-back-button slot="end"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item >
+    <h2> Sponsers That Funds Us</h2>
+  </ion-item>  
+  <ion-item py="2">
+    <ion-avatar slot="start">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-PhtcitaTTATqHsVXNv44WWlH3fQhB6865g&usqp=CAU">
+    </ion-avatar>
+    <ion-label><b>CEO & Founder</b>
+      <p><b>Mr.zilong</b></p>
+      <p>tik toker</p>
+      <p>earned so many</p> 
+      <ion-button color="dark" shape="round" (click)="presentAlert()" >Contact</ion-button>
+    </ion-label><br>  
+    <!-- onclick="alert('mailto:sherabten098@gmail.com')"   -->
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfc8pp5JnTuKkZyWCFKnHUnCUSMHaN3oXzZKFjJ0oI7LudGV6VHz9kaHS-ltnF3pECdCM&usqp=CAU">
+    </ion-avatar>
+    <ion-label><b>co-Founder</b>
+      <p><b>Mr.Balmod</b></p>
+      <p>tik toker</p>
+      <p>earned so many</p> 
+      <ion-button (click)="presentAlert()" color="dark" shape="round"  >Contact</ion-button>
+    </ion-label><br>    
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd4LBavaCtqRo7jct7aJtPPW55cpZXWSajoV-ZBg0g-5CZfUwc69anOL2Kp8C-g9p3N-w&usqp=CAU">
+    </ion-avatar>
+    <ion-label><b>Director</b>
+      <p><b>X.borg</b></p>
+      <p>tik toker</p>
+      <p>earned so many</p> 
+      <ion-button (click)="presentAlert()" color="dark" shape="round"  >Contact</ion-button>
+    </ion-label><br>    
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_EIw4H1HFizkH0kkaZY486AjB2BqBcz4nyw&usqp=CAU">
+    </ion-avatar>
+    <ion-label><b>Care taker</b>
+      <p><b>Jhonson</b></p>
+      <p>tik toker</p>
+      <p>earned so many</p> 
+     <ion-button (click)="presentAlert()" color="dark" shape="round">Contact</ion-button>
+    </ion-label><br>    
+  </ion-item>
+  <br>
+  <ion-button href="mailto:sherabten098@gmail.com"color="dark" shape="round" expand="block" >BE A Sponser</ion-button> 
+</ion-content>
+
+

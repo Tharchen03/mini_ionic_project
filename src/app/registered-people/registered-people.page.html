@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons  slot="start">
+      <ion-back-button defaultHref="/registration" color="dark"></ion-back-button>
+    </ion-buttons>
+    <ion-title>registered-People</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let registered of registeredpeople">
+    <ion-avatar slot="start" >
+      <ion-img src="https://play-lh.googleusercontent.com/IhUVzRkz5MokalaeiLulcloc8rxROw0fSPRC7-Lc5zCF_wIfhbxo3qsOjKxYp524B1dY"></ion-img>
+    </ion-avatar>
+    <ion-label >
+      <h2>Team Leader:{{registered.name}}</h2>
+      <p>Contact-Info:{{registered.contact}}</p>
+      <p>Tournament Name:{{registered.tournament}}</p>
+      <p>Member:{{registered.Member}}</p>
+    </ion-label>
+  </ion-item>
+  
+
+</ion-content>
+
